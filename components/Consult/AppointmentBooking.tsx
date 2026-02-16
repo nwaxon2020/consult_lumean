@@ -6,11 +6,10 @@ import { useAuth } from '@/hooks/useAuth';
 import { db } from '@/lib/firebase';
 import { 
   collection, addDoc, query, where, onSnapshot, 
-  orderBy, doc, updateDoc, serverTimestamp, Timestamp,
-  writeBatch 
+  orderBy, doc, updateDoc, serverTimestamp, Timestamp, 
 } from 'firebase/firestore';
 import toast from 'react-hot-toast';
-import { FaCreditCard, FaGift, FaPercent } from 'react-icons/fa';
+import { FaCreditCard, FaGift, FaPercent, FaLock, } from 'react-icons/fa';
 
 import WeeklyScheduler from './WeeklyScheduler';
 import PaymentGate from './PaymentGate';
@@ -236,6 +235,19 @@ const AppointmentBooking: React.FC<AppointmentBookingProps> = ({ onSessionSecure
       />
     );
   }
+
+  if (!user) {
+    return (
+      <div className="flex items-center justify-center p-8 h-[500px]">
+        <div className="bg-[#0b141a] p-7 md:p-12 rounded-[1rem] md:rounded-[2.5rem] border border-white/5 text-center shadow-2xl max-w-sm w-full">
+          <FaLock size={40} className="text-blue-500/20 mx-auto mb-6" />
+          <h3 className="text-white font-black uppercase italic text-lg tracking-tighter">Sign In Required</h3>
+          <p className="text-slate-500 text-[10px] uppercase tracking-widest mt-4">Please sign in to access <span className='font-bold text-white'>Booking Schedule</span></p>
+        </div>
+      </div>
+    );
+  }
+    
 
   return (
     <div className="max-w-4xl mx-auto p-3 md:p-4">

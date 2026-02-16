@@ -96,7 +96,7 @@ const VoiceCall: React.FC<VoiceCallProps> = ({ onUnlockRedirect }) => {
         <div className="bg-[#0b141a] p-7 md:p-12 rounded-[1rem] md:rounded-[2.5rem] border border-white/5 text-center shadow-2xl max-w-sm w-full">
           <FaLock size={40} className="text-blue-500/20 mx-auto mb-6" />
           <h3 className="text-white font-black uppercase italic text-lg tracking-tighter">Sign In Required</h3>
-          <p className="text-slate-500 text-[10px] uppercase tracking-widest mt-4">Please sign in to access Voice Calls</p>
+          <p className="text-slate-500 text-[10px] uppercase tracking-widest mt-4">Please sign in to access <span className='font-bold text-white'>Voice Calls</span></p>
           <button onClick={onUnlockRedirect} className="mt-8 px-8 py-4 bg-blue-600 text-white rounded-lg md:rounded-2xl font-black uppercase text-[10px] tracking-widest">Go to Schedule</button>
         </div>
       </div>
