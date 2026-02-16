@@ -23,7 +23,7 @@ const AboutPage: React.FC = () => {
                 className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-xl"
                 >
                 <img
-                    src="/doctor-profile.jpg"
+                    src="/doc.png"
                     alt="Dr. Smith"
                     className="w-full h-full object-cover"
                 />
