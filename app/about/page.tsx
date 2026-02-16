@@ -14,21 +14,24 @@ const AboutPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="bg-white rounded-3xl shadow-2xl overflow-hidden mb-16"
         >
-            <div className="relative h-64 bg-gradient-to-r from-blue-600 to-purple-700">
-            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-                <motion.div
-                initial={{ scale: 0 }}
-                animate={{ scale: 1 }}
-                transition={{ delay: 0.3, type: 'spring' }}
-                className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-xl"
-                >
-                <img
-                    src="/doc.png"
-                    alt="Dr. Smith"
-                    className="w-full h-full object-cover"
-                />
-                </motion.div>
-            </div>
+            <div className="relative h-64 bg-gray-700" 
+                style={{ backgroundImage: `url(/heroBg3.jpg)`, backgroundRepeat: "no-repeat", 
+                backgroundBlendMode:"multiply", backgroundPosition:"center", backgroundSize:"cover" }}
+            >
+                <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2">
+                    <motion.div
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ delay: 0.3, type: 'spring' }}
+                    className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-xl"
+                    >
+                    <img
+                        src="/doc.png"
+                        alt="Dr. Smith"
+                        className="w-full h-full object-cover"
+                    />
+                    </motion.div>
+                </div>
             </div>
             
             <div className="pt-24 pb-8 px-8 text-center">
