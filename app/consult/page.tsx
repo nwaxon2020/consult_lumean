@@ -110,7 +110,7 @@ const ConsultPage: React.FC = () => {
                 <span>Verified Medical Professionals</span>
               </div>
               <h1 className="text-4xl md:text-5xl font-black text-white mb-4 tracking-tight">
-                Consult with <span className="text-blue-500">Dr. Nwachukwu</span>
+                Consult with <span className="text-blue-500">Dr. Prince.N</span>
               </h1>
               <p className="text-lg text-slate-400 leading-relaxed">
                 Experience world-class healthcare from the comfort of your home. 
