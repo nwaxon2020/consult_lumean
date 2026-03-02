@@ -67,7 +67,7 @@ const Header: React.FC = () => {
                 <FaStethoscope className="text-white text-xl" />
               </div>
               <span className="text-xl font-bold text-blue-900 tracking-tight">
-                Dr.<span className="text-blue-500"> Nwachukwu's</span> Place
+                Dr.<span className="text-blue-500"> Prince.N's</span> Place
               </span>
             </Link>
 
@@ -107,7 +107,7 @@ const Header: React.FC = () => {
             </nav>
 
             <div className="hidden md:flex items-center gap-4 flex-shrink-0">
-              <a href="tel:+23412345678" className="mr-2 flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-bold text-xs border border-blue-100 hover:bg-blue-600 hover:text-white transition-all">
+              <a href="tel:+10-345-Your-Number" className="mr-2 flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-bold text-xs border border-blue-100 hover:bg-blue-600 hover:text-white transition-all">
                 <FaPhoneAlt size={10} className="animate-pulse" />
                 EMERGENCY
               </a>
