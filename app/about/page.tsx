@@ -26,7 +26,7 @@ const AboutPage: React.FC = () => {
                     className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-xl"
                     >
                     <img
-                        src="/doc.png"
+                        src="https://www.upwork.com/profile-portraits/c1xdNdDfBioYemExni0Bp_U_tbmyUwc4pDmIVNzxDfxcVNYhhV0D-hN1QGKRV2tufn" {/* "/doc.png" */}
                         alt="Dr. Smith"
                         className="w-full h-full object-cover"
                     />
@@ -41,8 +41,16 @@ const AboutPage: React.FC = () => {
                 transition={{ delay: 0.5 }}
                 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2"
             >
-                Dr. John Smith
+                Dr. Prince.N
             </motion.h1>
+            <motion.small>
+              <span className='font-bold text-[10px]' > 
+                <a className='text-gray-400 font-medium' href={"tel:+01-355-0yournumber"}>01-3244-your-number</a>
+              </span>
+              <span className='font-bold text-[10px]' >
+                <a className='text-gray-400 font-medium' href={"mailto:@support.health@testemail.com"}>docPrince.n@testemail.com</a>
+              </span>
+            </motion.small>
             <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
