@@ -206,6 +206,7 @@ const Footer: React.FC = () => {
               <div className="text-center mb-6">
                 <FaShieldAlt className="text-blue-500 text-3xl mx-auto mb-2" />
                 <h2 className="text-white font-bold uppercase tracking-widest text-sm">Admin Access</h2>
+                <span className='text-gray-400 text-[10px]'>{"sample Log in details use: (email:prince.n@testemail.com) (password:user1234)"}</span>
               </div>
               <form onSubmit={handleAdminAuth} className="space-y-4">
                 <input 
