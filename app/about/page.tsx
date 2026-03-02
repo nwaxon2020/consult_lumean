@@ -35,37 +35,29 @@ const AboutPage: React.FC = () => {
             </div>
             
             <div className="pt-24 pb-8 px-8 text-center">
-            <motion.h1
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5 }}
-                className="text-3xl md:text-4xl font-bold text-gray-900 mb-2"
-            >
-                Dr. Prince.N
-            </motion.h1>
-            <motion.small
+           <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
+              className="text-3xl md:text-4xl font-bold text-gray-900 mb-2"
             >
-              <span className="font-bold text-[10px]">
-                <a
-                  className="text-gray-400 font-medium"
-                  href="tel:+013244000000"
-                >
-                  01-3244-000000
+              Dr. Prince.N <br />
+            
+              <span className="block text-sm font-medium text-gray-600">
+                Email: 
+                <a href="mailto:docPrince.N@testemail.com" className="ml-1 hover:underline">
+                  docPrince.N@testemail.com
                 </a>
               </span>
             
-              <span className="font-bold text-[10px] ml-2">
-                <a
-                  className="text-gray-400 font-medium"
-                  href="mailto:support.health@testemail.com"
-                >
-                  docPrince.n@testemail.com
+              <span className="block text-sm font-medium text-gray-600">
+                Contact: 
+                <a href="tel:+013440000000" className="ml-1 hover:underline">
+                  +01-344-000000
                 </a>
               </span>
-            </motion.small>
+            </motion.h1>
+            
             <motion.p
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
