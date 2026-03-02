@@ -26,8 +26,8 @@ const AboutPage: React.FC = () => {
                     className="w-40 h-40 rounded-full border-4 border-white overflow-hidden shadow-xl"
                     >
                     <img
-                        src="https://www.upwork.com/profile-portraits/c1xdNdDfBioYemExni0Bp_U_tbmyUwc4pDmIVNzxDfxcVNYhhV0D-hN1QGKRV2tufn" {/* "/doc.png" */}
-                        alt="Dr. Smith"
+                        src="/doc.png"
+                        alt="Dr. Nachukwu.P"
                         className="w-full h-full object-cover"
                     />
                     </motion.div>
