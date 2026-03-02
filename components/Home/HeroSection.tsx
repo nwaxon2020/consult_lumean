@@ -56,11 +56,11 @@ const HeroSection: React.FC = () => {
           </motion.span>
           
           <h1 className="text-5xl md:text-7xl font-extrabold mb-6 text-white drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-            Hi, I am <span className="text-blue-400">Dr. Nwachukwu</span>
+            Hi, I am <span className="text-blue-400">Dr. Prince.N</span>
           </h1>
           
           <p className="text-xl md:text-2xl mb-10 text-gray-100 max-w-2xl mx-auto font-medium drop-shadow-md">
-            Welcome to <span className="font-bold text-white">Doc Nwachukwu's Place</span>. 
+            Welcome to <span className="font-bold text-white">Doc Prince.N's Place</span>. 
             Experience premium medical attention from the comfort of your home.
           </p>
 
