@@ -36,7 +36,7 @@ const AppointmentBooking: React.FC<AppointmentBookingProps> = ({ onSessionSecure
   const [showPayment, setShowPayment] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const ADMIN_UID = "UKCd1iFnIcYzpkL3rmVK5iniNbU2";
+  const ADMIN_UID = "TJT5losXDiTiNPUygla8eJQP0SL2";
   const isAdmin = user?.uid === ADMIN_UID;
 
   // Real-time Database Sync
