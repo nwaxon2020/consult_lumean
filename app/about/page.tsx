@@ -43,12 +43,27 @@ const AboutPage: React.FC = () => {
             >
                 Dr. Prince.N
             </motion.h1>
-            <motion.small>
-              <span className='font-bold text-[10px]' > 
-                <a className='text-gray-400 font-medium' href={"tel:+01-355-0yournumber"}>01-3244-your-number</a>
+            <motion.small
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5 }}
+            >
+              <span className="font-bold text-[10px]">
+                <a
+                  className="text-gray-400 font-medium"
+                  href="tel:+013244000000"
+                >
+                  01-3244-000000
+                </a>
               </span>
-              <span className='font-bold text-[10px]' >
-                <a className='text-gray-400 font-medium' href={"mailto:@support.health@testemail.com"}>docPrince.n@testemail.com</a>
+            
+              <span className="font-bold text-[10px] ml-2">
+                <a
+                  className="text-gray-400 font-medium"
+                  href="mailto:support.health@testemail.com"
+                >
+                  docPrince.n@testemail.com
+                </a>
               </span>
             </motion.small>
             <motion.p
