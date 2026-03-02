@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                 whileHover={{ scale: 1.02 }}
                 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent cursor-pointer"
               >
-                Dr. Nwachukwu's Place
+                Dr. Prince.N's Place
               </motion.span>
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed">
@@ -148,11 +148,11 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3 text-sm text-gray-400">
                 <FaMapMarkerAlt className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-                <span>123 Medical Center Drive, Healthcare City, HC 12345</span>
+                <span>123 Sample Address for Medical Center Drive, Healthcare City, HC 12345</span>
               </li>
               <li className="flex items-center space-x-3 text-sm text-gray-400">
                 <FaPhone className="w-5 h-5 text-blue-400 flex-shrink-0" />
-                <span>+234 123 456 7890</span>
+                <span>+01-3244-your-number</span>
               </li>
               <li className="flex items-center space-x-3 text-sm text-gray-400">
                 <FaEnvelope className="w-5 h-5 text-blue-400 flex-shrink-0" />
