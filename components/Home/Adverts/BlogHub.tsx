@@ -95,7 +95,7 @@ export const BlogHub = ({ advert }: any) => {
         <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
           <div className="p-3 bg-white/20 backdrop-blur-md rounded-2xl w-fit mb-4"><FaNewspaper size={24} /></div>
           <h2 className="text-3xl font-black mb-2">{advert.title}</h2>
-          <p className="text-white/90 text-lg mb-6 tracking-tight">Moments from Dr. Nwachukwu's journey.</p>
+          <p className="text-white/90 text-lg mb-6 tracking-tight">Moments from Dr. Prince.N's journey.</p>
           <button className="w-fit px-6 py-2 bg-white text-purple-900 rounded-xl font-bold uppercase tracking-wider">Read Blog</button>
         </div>
       </motion.div>
