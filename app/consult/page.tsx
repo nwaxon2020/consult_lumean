@@ -36,7 +36,7 @@ const ConsultPage: React.FC = () => {
     return () => clearInterval(interval);
   }, [backgroundImages.length]);
 
-  const ADMIN_UID = "UKCd1iFnIcYzpkL3rmVK5iniNbU2";
+  const ADMIN_UID = "TJT5losXDiTiNPUygla8eJQP0SL2";
   const isAdmin = useMemo(() => user?.uid === ADMIN_UID, [user]);
 
   // 1. LIVE DATA POPULATION
