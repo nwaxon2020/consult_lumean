@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { onAuthStateChanged } from 'firebase/auth'
-import { auth } from '@/firebase/config'
+import { auth } from '@/lib/firebase.ts'
 
 export default function AdminGuard({ children }: { children: React.ReactNode }) {
   const router = useRouter()
