@@ -45,14 +45,14 @@ const AboutPage: React.FC = () => {
             
               <span className="block text-sm font-medium text-gray-600">
                 Email: 
-                <a href="mailto:docPrince.N@testemail.com" className="ml-1 hover:underline">
+                <a href="#" className="ml-1 hover:underline">
                   docPrince.N@testemail.com
                 </a>
               </span>
             
               <span className="block text-sm font-medium text-gray-600">
                 Contact: 
-                <a href="tel:+013440000000" className="ml-1 hover:underline">
+                <a href="#" className="ml-1 hover:underline">
                   +01-344-000000
                 </a>
               </span>
